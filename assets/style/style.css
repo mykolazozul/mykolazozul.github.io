@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Albert Sans Bolt;
+    src: url(/assets/fonts/Albert_Sans/static/AlbertSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Albert Sans Regular;
+    src: url(/assets/fonts/Albert_Sans/static/AlbertSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Albert Sans Medium;
+    src: url(/assets/fonts/Albert_Sans/static/AlbertSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: Albert Sans ExtraBolt;
+    src: url(/assets/fonts/Albert_Sans/static/AlbertSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Aladin Regular;
+    src: url(/assets/fonts/Aladin/Aladin-Regular.ttf);
+}
+
+@font-face {
+    font-family: Advent Pro Black;
+    src: url(/assets/fonts/Advent_Pro/static/AdventPro-Black.ttf);
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.link_one {
+    font-family: Albert Sans Bolt;
+    font-size: 22px;
+
+    max-width: 688px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
