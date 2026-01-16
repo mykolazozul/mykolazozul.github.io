@@ -47,8 +47,71 @@ p {
 
     max-width: 688px;
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto 0;
 
     display: flex;
     justify-content: space-between;
+}
+
+.first_block {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1826px;
+    width: 100%;
+    min-height: 852px;
+
+    margin: 138.5px auto 40px 86px;
+}
+
+#main_photo {
+    position: absolute;
+    z-index: -1;
+    padding: 12.48px 0 0 118.56px;
+}
+
+#text_M {
+    font-family: Aladin Regular;
+    font-size: 128px;
+    margin-top: 5px;
+}
+
+#text_Z {
+    font-family: Aladin Regular;
+    font-size: 128px;
+    margin: 134.2px auto auto 773px;
+}
+
+.f_b_add {
+    margin-top: 166px;
+    display: flex;
+    justify-content: space-between;
+    width: 681px;
+    height: 221px;
+}
+
+.f_b_add p {
+    font-family: Aladin Regular;
+    font-size: 32px;
+    text-align: center;
+    white-space: nowrap;
+
+    margin-left: 3px;
+    margin-top: 137px;
+    max-width: 490px;
+    width: 100%;
+}
+
+.Quotes_one {
+    margin-left: 45.5px;
+}
+
+.Quotes_one> :first-child {
+    font-family: Albert Sans Bolt;
+    font-size: 36px;
+}
+
+.Quotes_one> :nth-child(2) {
+    font-family: Albert Sans Regular;
+    font-size: 24px;
 }
